@@ -652,8 +652,27 @@ html, body {
   background: #ffaa00;
 }
 
-      
-
+.profile-details i.address-icon {
+    color: red;
+  }
+  
+  .profile-details i.email-icon {
+    color: #D44638; /* Gmail red */
+  }
+  
+  .profile-details i.phone-icon {
+    color: green;
+  }
+  
+  .profile-details a {
+    text-decoration: none;
+    color: inherit; /* keeps the same color as text */
+  }
+  
+  .profile-details a:hover {
+    text-decoration: underline;
+  }
+  
 
 
 
